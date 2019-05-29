@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CustomeCollectionViewObj : UICollectionView
 
+-(void)setup;
+
 @end
 
 NS_ASSUME_NONNULL_END
