@@ -9,8 +9,7 @@ Pod::Spec.new do |s|
   s.author              = "Lorenzo Boaronn"
   s.platform            = :ios, "9.0"
   s.source              = { :git => "https://github.com/muhammadjabbar63/TestPods.git"}
-  s.source_files        = "TestPods/**/*.{h}"
-  s.exclude_files = "TestPods/**/*.{m}"
+  s.source_files        = "TestPods/**/*.{h,m}"
 
 #  s.swift_version       = "4.2"
 
